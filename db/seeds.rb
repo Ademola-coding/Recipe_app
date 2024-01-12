@@ -9,14 +9,14 @@
 # db/seeds.rb
 
 user1 = User.create!(
-    name: "User Test 1",
+    name: "User 1",
     email: "user1@example.com",
     password: "123456",
     confirmed_at: Time.now
   )
   
   user2 = User.create!(
-    name: "User Test 2",
+    name: "User 2",
     email: "user2@example.com",
     password: "123456",
     confirmed_at: Time.now

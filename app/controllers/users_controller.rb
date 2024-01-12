@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
 
-  def index
-    @users = User.all
+  def new
+    @user = User.new
   end
 
   def show
@@ -14,8 +14,8 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
-  def new
-    @user = User.new
+  def index
+    @users = User.all
   end
 
   def create

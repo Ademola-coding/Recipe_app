@@ -1,4 +1,3 @@
-# spec/integration/recipe_spec.rb
 require 'rails_helper'
 
 RSpec.describe 'recipes/index.html.erb', type: :view do
@@ -13,17 +12,9 @@ RSpec.describe 'recipes/index.html.erb', type: :view do
                                description: 'test recipe 2', public: true)
       @recipe3 = Recipe.create(name: 'pizza', user_id: @user.id, preparation_time: 34, cooking_time: 45,
                                description: 'test recipe 3', public: true)
-
-      # Stub the view's current_user method to return the @user variable
       allow(view).to receive(:current_user).and_return(@user)
-
-      # Stub the view's user_signed_in? method to return true
       allow(view).to receive(:user_signed_in?).and_return(true)
-
-      # Assign the @recipes instance variable with the test data
       assign(:recipes, [@recipe1, @recipe2, @recipe3])
-
-      # Render the view
       render
     end
 

@@ -1,4 +1,3 @@
-# spec/features/food_inventory_page_spec.rb
 require 'rails_helper'
 
 RSpec.describe 'Food Inventory Page', type: :feature do

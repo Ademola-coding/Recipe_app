@@ -41,15 +41,15 @@ a.card-title:hover {
 }
 
 .button-list:hover i.bi-star-fill {
-  color: #fde155;
+  color: #75671d;
 }
 
 .bg-pink {
-  background-color: #f87d7f !important;
+  background-color: #007a74 !important;
 }
 
 .dropdown-menu li:hover {
-  background-color: #f87d7f !important;
+  background-color: #720c0e !important;
 }
 
 .btn-primary,
@@ -59,11 +59,11 @@ a.card-title:hover {
 }
 
 .dropdown-menu li:hover a {
-  color: #fff !important;
+  color: #f0aeae !important;
 }
 
 .btn-primary:active {
-  background-color: #d76d6f !important;
+  background-color: #531213 !important;
 }
 
 .card-header:hover small {
@@ -82,9 +82,9 @@ a.card-title:hover {
   opacity: 0;
   transition: opacity 1s;
   position: absolute;
-  background-color: #ffc5c6;
-  border: #9b5051 solid 1px;
-  color: #9b5051;
+  background-color: #c5ffd6;
+  border: #471415 solid 1px;
+  color: #6d1314;
   font-size: 0.7em;
 }
 
@@ -98,25 +98,25 @@ div.recipe-card {
 
 .form-switch .form-check-input[checked],
 input[type='checkbox']:checked {
-  background-color: #f87d7f !important;
-  border-color: #f87d7f !important;
+  background-color: #7dd5f8 !important;
+  border-color: #7dbdf8 !important;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: #f87d7f !important;
-  box-shadow: 0 0 0 #f87d7f !important;
+  border-color: #7dd5f8 !important;
+  box-shadow: 0 0 0 #7dc7f8 !important;
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #f87d7f !important;
-  --bs-btn-border-color: #f87d7f !important;
-  --bs-btn-hover-bg: #f87d7f !important;
-  --bs-btn-hover-border-color: #f87d7f !important;
-  --bs-btn-active-color: #f87d7f !important;
-  --bs-btn-active-bg: #f87d7f !important;
-  --bs-btn-active-border-color: #f87d7f !important;
-  --bs-btn-disabled-color: #f87d7f !important;
-  --bs-btn-disabled-border-color: #f87d7f !important;
+  --bs-btn-color: #7df8d9 !important;
+  --bs-btn-border-color: #7df8ee !important;
+  --bs-btn-hover-bg: #7de6f8 !important;
+  --bs-btn-hover-border-color: #7dd5f8 !important;
+  --bs-btn-active-color: #7df8f8 !important;
+  --bs-btn-active-bg: #7de6f8 !important;
+  --bs-btn-active-border-color: #7de6f8 !important;
+  --bs-btn-disabled-color: #7dd1f8 !important;
+  --bs-btn-disabled-border-color: #7dd1f8 !important;
 }

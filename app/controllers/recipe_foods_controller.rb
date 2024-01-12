@@ -1,12 +1,6 @@
 class RecipeFoodsController < ApplicationController
   before_action :authenticate_user!
 
-  def new
-    @recipe_food = RecipeFood.new
-    @recipe = Recipe.find(params[:recipe_id])
-    @foods = current_user.foods.where.not(id: @recipe.recipe_foods.pluck(:food_id))
-  end
-
   def create
     @recipe_food = RecipeFood.new(recipe_food_params)
     @recipe_food.recipe_id = params[:recipe_food][:recipe_id]
@@ -18,6 +12,12 @@ class RecipeFoodsController < ApplicationController
       flash.now[:alert] = 'Something went wrong! Ingredient was not added to the recipe.'
       render :new
     end
+  end
+  
+  def new
+    @recipe_food = RecipeFood.new
+    @recipe = Recipe.find(params[:recipe_id])
+    @foods = current_user.foods.where.not(id: @recipe.recipe_foods.pluck(:food_id))
   end
 
   def destroy

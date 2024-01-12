@@ -34,7 +34,7 @@
 
 #  Recipe app <a name="about-project"></a>
 
-**"Recipe app"** keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.
+**"Recipe app"** keeps track of all your recipes, ingredients, and inventory. It will allow you to keep track of what you have, create recipes, and generate a shopping list based on what you have.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +59,6 @@ The project is built using the following technologies:
 - [x] Create and delete recipes and ingredients.
 - [x] 'Make public' option to share recipes with other users.
 - [x] User authentication.
-- [x] Responsive design.
 
 <ul>
   <li>HTML & CSS3</li>
@@ -70,7 +69,6 @@ The project is built using the following technologies:
       <li>StyleLint</li>
     </ul>
   </li>
-  <li>Follow Microverse's list of best practices</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,8 +79,6 @@ The project is built using the following technologies:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -101,7 +97,7 @@ In order to run this project you need to have:
 To clone this repository to your desired folder, run the following command: <br>
 
 ```
-git clone https://github.com/grauJavier/recipe-app.git
+git clone https://github.com/Ademola-coding/Recipe_app.git
 ```
 
 Navigate to the cloned repository and run the following command to install the necessary gems:
@@ -137,16 +133,17 @@ rspec spec
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Javier Grau**
-- GitHub: [@grauJavier](https://github.com/grauJavier)
-- Twitter: [@jgrauchile](https://twitter.com/jgrauchile)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/javiergrau)
+👤 **EvanSnave**
 
-👤 **Ruth Abreu**
+- GitHub: [EvansSnave](https://github.com/EvansSnave)
+- Twitter: [Kroja13](https://twitter.com/Kroja13)
+- LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
 
-- GitHub: [@Ruthmy](https://github.com/Ruthmy)
-- Twitter: [@rury_exe](https://twitter.com/rury_exe)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ruth-abreu)
+- 👤 **Ademola Owoeyee**
+
+- GitHub: [Ademola-coding](https://github.com/Ademola-coding)
+- Twitter: [Steady](https://twitter.com/Steady1700)
+- LinkedIn: [Ademola owoeye](https://www.linkedin.com/in/ademola-owoeye/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +156,6 @@ rspec spec
 Upcoming improvements:
 
 - [ ] Search functionality for locating specific articles.
-- [ ] User profiles with customizable avatars.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,8 +166,6 @@ Upcoming improvements:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/grauJavier/recipe-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -5,7 +5,7 @@
         <i class="bi bi-cookie me-2 fs-4"></i>
         <h4 class="m-0">Food Inventory</h4>
       </div>
-      <%= link_to '+ Add New Food', new_food_path, class: 'btn btn-primary' %>
+      <%= link_to '+ Add New Food', new_food_path, class: 'btn btn-secondary' %>
     </div>
     <% if @foods.any? %>
       <table class="table table-hover mb-0 rounded-bottom">
@@ -33,7 +33,7 @@
         </tbody>
       </table>
     <% else %>
-      <p class="m-0 text-center m-3">You haven't added any food yet.</p>
+      <p class="m-0 text-center m-3">You haven not added any food yet.</p>
     <% end %>
   </div>
 </div>

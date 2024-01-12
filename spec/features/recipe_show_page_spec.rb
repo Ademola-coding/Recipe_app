@@ -1,4 +1,3 @@
-# spec/features/recipe_show_page_spec.rb
 require 'rails_helper'
 
 RSpec.describe 'Recipe Show Page', type: :feature do
