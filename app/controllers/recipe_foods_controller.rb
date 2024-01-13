@@ -13,7 +13,7 @@ class RecipeFoodsController < ApplicationController
       render :new
     end
   end
-  
+
   def new
     @recipe_food = RecipeFood.new
     @recipe = Recipe.find(params[:recipe_id])
