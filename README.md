@@ -147,7 +147,7 @@ rail server
 
 ### Futre Features <a name="future-features"></a>
 
-- **[Allow_users_to_bookmark_blog_post]**
+- **[Allow_users_to_like recipes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +171,7 @@ If you like this project kind assist in giving a star
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></
-This project is [MIT](https://github.com/Ademola-coding/Blog_rails/blob/Integrate-specs-for-views-and-fix-n+1-problems/MIT.md) licensed
+This project is [MIT](https://github.com/Ademola-coding/Recipe_app/blob/DEV/MIT.md) licensed
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
