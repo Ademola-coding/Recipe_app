@@ -50,7 +50,7 @@ class RecipesController < ApplicationController
   def recipe_params
     params.require(:recipe).permit(:name, :preparation_time, :cooking_time, :description, :public, :user_id)
   end
-
+  
   def destroy
     @recipe = Recipe.find_by(id: params[:id])
     RecipeFood.where(recipe_id: @recipe.id).destroy_all

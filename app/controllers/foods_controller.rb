@@ -8,7 +8,6 @@ class FoodsController < ApplicationController
   def show
     @food = Food.find_by_id(params[:id])
     return unless @food.nil?
-
     flash[:alert] = 'Something went wrong! Food not found'
     redirect_to foods_path
   end
