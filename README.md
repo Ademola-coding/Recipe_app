@@ -1,39 +1,9 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
-  <br/>
-
+  <h1><b>Recipe App  | Ruby on Rails Capstone Project</b></h1>
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -43,113 +13,153 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+    <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
+
+---
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Recipe app] <a name="about-project"></a>
+#  Recipe app <a name="about-project"></a>
 
+**"Recipe app"** keeps track of all your recipes, ingredients, and inventory. It will allow you to keep track of what you have, create recipes, and generate a shopping list based on what you have.
 
-**[A Recipe app]** that keeps track of all your recipes, ingredients, and inventory.
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack
 
-<details>
-  <summary>Ruby</summary>
-  <ul>
-    <li>Ruby on rails</li>
-  </ul>
-</details>
+The project is built using the following technologies:
 
-<details>
-  <summary>rails</summary>
-  <ul>
-    <li>Rails</li>
-  </ul>
-</details>
+* Ruby on Rails.
+* PostgreSQL.
+* RSpec.
+* Rubocop.
+* Stylelint.
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+<br>
+
+---
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Allows to save ingredients, keep track of what you have, create recipes, and generate a shopping list]**
-- **[Allows to make Recipe public for anyone to access them]**
+- [x] Create and delete recipes and ingredients.
+- [x] 'Make public' option to share recipes with other users.
+- [x] User authentication.
+
+<ul>
+  <li>HTML & CSS3</li>
+  <li>Ruby on Rails</li>
+  <li>Linters
+    <ul>
+      <li>Rubocop</li>
+      <li>StyleLint</li>
+    </ul>
+  </li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
+<!-- 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+In order to run this project you need to have:
 
-In order to run this project you need:
-
-- internet connection
-- code editor
-
+- Installed Ruby and Ruby on Rails.
+- If you're using Windows, have installed WSL.
+- If you're using MacOS, an option is using UTM.
 
 ### Setup
+To clone this repository to your desired folder, run the following command: <br>
 
-Clone this repository to your desired folder:
- ```https://github.com/Ademola-coding/Recipe_app.git```
+```
+git clone https://github.com/Ademola-coding/Recipe_app.git
+```
 
-### Install
+Navigate to the cloned repository and run the following command to install the necessary gems:
+```
+cd blog-app
+bundle install
+```
 
-Install this project with:
-
-``` bundle install```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
+Initialize it with
+```
+rails server
+```
+Then open `http://localhost:3000` in your browser.
 
-To run the project, execute the following command:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-rail server
+### Test
+To run the tests try the following command:
+```
+rspec spec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-👤 **Ademola Owoeye**
 
-- GitHub: [@Ademola-coding](https://github.com/Ademola-coding)
-- Twitter: [@twitterhandle](https://twitter.com/steady1700)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ademola-owoeye)
+👤 **EvanSnave**
 
- 👤 **Kevin Cruz**
+- GitHub: [EvansSnave](https://github.com/EvansSnave)
+- Twitter: [Kroja13](https://twitter.com/Kroja13)
+- LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
 
-- GitHub: [@EvansSnave](https://github.com/EvansSnave)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kevin-cruz-25159a201)
+- 👤 **Ademola Owoeyee**
 
-### Futre Features <a name="future-features"></a>
-
-- **[Allow_users_to_like recipes]**
+- GitHub: [Ademola-coding](https://github.com/Ademola-coding)
+- Twitter: [Steady](https://twitter.com/Steady1700)
+- LinkedIn: [Ademola owoeye](https://www.linkedin.com/in/ademola-owoeye/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Upcoming improvements:
+
+- [ ] Search functionality for locating specific articles.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- CONTRIBUTING -->
 
@@ -157,23 +167,37 @@ rail server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project kind assist in giving a star
-
-<p align="right">(<a href="#readme-top">back to 
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></
-This project is [MIT](https://github.com/Ademola-coding/Recipe_app/blob/DEV/MIT.md) licensed
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+If you like this project and know someone who might find it helpful, please share it.
+Or give it a **star** ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I thank Microverse for this fantastic opportunity, and the code reviewers for their advice and time.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
