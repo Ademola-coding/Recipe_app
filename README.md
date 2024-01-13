@@ -61,11 +61,10 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Blog App] <a name="about-project"></a>
+# 📖 [Recipe app] <a name="about-project"></a>
 
 
-**[A Blog app]** that will show a list of posts and empower readers to interact with them by adding comments and liking the posts.
-
+**[A Recipe app]** that keeps track of all your recipes, ingredients, and inventory.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -95,8 +94,8 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-- **[empower_readers_to_interact_with_them_by_adding_comments_and_liking_the_posts]**
-- **[show_a_list_of_posts]**
+- **[Allows to save ingredients, keep track of what you have, create recipes, and generate a shopping list]**
+- **[Allows to make Recipe public for anyone to access them]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +117,7 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
- ```https://github.com/Ademola-coding/Blog_rails.git```
+ ```https://github.com/Ademola-coding/Recipe_app.git```
 
 ### Install
 
@@ -141,11 +140,10 @@ rail server
 - Twitter: [@twitterhandle](https://twitter.com/steady1700)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ademola-owoeye)
 
- 👤 **KEVIN **
+ 👤 **Kevin Cruz**
 
-- GitHub: [@Ademola-coding](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- GitHub: [@Ademola-coding](https://github.com/EvansSnave)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/kevin-cruz-25159a201)
 
 ### Futre Features <a name="future-features"></a>
 
