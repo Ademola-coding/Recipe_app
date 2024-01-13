@@ -142,7 +142,7 @@ rail server
 
  👤 **Kevin Cruz**
 
-- GitHub: [@Ademola-coding](https://github.com/EvansSnave)
+- GitHub: [@EvansSnave](https://github.com/EvansSnave)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kevin-cruz-25159a201)
 
 ### Futre Features <a name="future-features"></a>
