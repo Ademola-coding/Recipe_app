@@ -9,7 +9,6 @@ class GeneralShoppingListsController < ApplicationController
     required_foods.each do |food_id, quantity|
       food = Food.find_by(id: food_id)
 
-
       final_quantity = quantity
       @total_price += final_quantity * food.price
 
