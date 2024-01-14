@@ -13,3 +13,110 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #fff;
+}
+
+.body-max-width {
+  max-width: 1300px !important;
+}
+
+small,
+.small {
+  font-size: 0.8em;
+}
+
+.smaller {
+  font-size: 0.6em;
+}
+
+abbr[title] {
+  display: none !important;
+}
+
+.button-list:hover p,
+a.card-title:hover {
+  text-decoration: underline !important;
+}
+
+.button-list:hover i.bi-star-fill {
+  color: #75671d;
+}
+
+.bg-pink {
+  background-color: #007a74 !important;
+}
+
+.dropdown-menu li:hover {
+  background-color: #720c0e !important;
+}
+
+.btn-primary,
+.dropdown-menu a:active {
+  border: 0 !important;
+  background-color: #f87d7f !important;
+}
+
+.dropdown-menu li:hover a {
+  color: #f0aeae !important;
+}
+
+.btn-primary:active {
+  background-color: #531213 !important;
+}
+
+.card-header:hover small {
+  display: flex !important;
+}
+
+.card-header:hover small:hover a:hover {
+  text-decoration: underline !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -33px !important;
+}
+
+.notice {
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  background-color: #c5ffd6;
+  border: #471415 solid 1px;
+  color: #6d1314;
+  font-size: 0.7em;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+div.recipe-card {
+  min-height: 6em !important;
+}
+
+.form-switch .form-check-input[checked],
+input[type='checkbox']:checked {
+  background-color: #7dd5f8 !important;
+  border-color: #7dbdf8 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #7dd5f8 !important;
+  box-shadow: 0 0 0 #7dc7f8 !important;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #7df8d9 !important;
+  --bs-btn-border-color: #7df8ee !important;
+  --bs-btn-hover-bg: #7de6f8 !important;
+  --bs-btn-hover-border-color: #7dd5f8 !important;
+  --bs-btn-active-color: #7df8f8 !important;
+  --bs-btn-active-bg: #7de6f8 !important;
+  --bs-btn-active-border-color: #7de6f8 !important;
+  --bs-btn-disabled-color: #7dd1f8 !important;
+  --bs-btn-disabled-border-color: #7dd1f8 !important;
+}

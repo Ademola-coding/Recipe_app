@@ -49,7 +49,7 @@ RSpec.describe 'Food Inventory Page', type: :feature do
 
     scenario 'displays a message when there are no food items' do
       visit foods_path
-      expect(page).to have_content("You haven't added any food yet.")
+      expect(page).to have_content('You have not added any food yet.')
     end
   end
 end
